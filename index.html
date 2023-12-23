@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Presentes!</title>
+</head>
+
+<body>
+
+   <div id="carousel-container">
+      <h1 style="text-align: center;">Clique para abrir o presente!</h1>
+      <div id="carousel">
+         <div class="carousel-item" id="um" onclick="showImage(0)"><img src="css/presente1.png" alt="Imagem 1" class="img"></div>
+         <div class="carousel-item" id="dois" onclick="showImage(1)"><img src="css/presente2.png" alt="Imagem 2" class="img"></div>
+         <div class="carousel-item" id="tres" onclick="showImage(2)"><img src="css/presente3.png" alt="Imagem 3" class="img"></div>
+         <!-- Adicione mais imagens conforme necessário -->
+      </div>
+   </div>
+
+   <div id="overlay">
+      <img id="overlay-img" src="" alt="Imagem Ampliada" onclick="hideOverlay()">
+   </div>
+
+   <div id="message">
+      Feliz Natal!
+   </div>
+
+   <script src="js/js.js"></script>
+</body>
+
+</html>
